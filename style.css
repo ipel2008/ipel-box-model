@@ -1,0 +1,140 @@
+body{
+	font: 16px/28px arial,sans-serif;
+	background-image: url(img/bg2.png);
+}
+.top-bar{
+background-color: blue;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 80px;
+border-bottom: 5px solid black;
+padding-bottom: 20px;
+z-index: 2;
+}
+.top-bar h1{
+	margin-top: 10px;
+}
+.top-bar ul li {
+	color: salmon;
+    display: inline-block;
+   position: relative;
+   margin-bottom: 10px;
+   text-indent: 1;
+   margin-top: -5px;
+}
+.top-bar a:hover{
+    background-color: yellow;
+}
+.container{
+	width: 960px;
+	margin: 80px auto;
+	background-color: white;
+	border: 5px solid black;
+}
+.facebook{
+	width: 200px;
+	height: 200px;
+	background-image:url(img/facebook.png);
+	display: inline-block;
+	text-indent: -9999px;
+	right: 270px;
+	position: absolute;
+	z-index: 1;
+}
+.header{
+	font-family: arial;
+	padding: 10px;
+	padding-bottom: 10px;
+	background-color: pink;
+}
+.header ul li{
+	display: inline-block;
+	margin-right: 6px;
+}
+.header .judul{
+	font-size: 50px;
+}
+.header a{
+	text-decoration: none;
+	color: salmon;
+	padding: 5px;
+}
+.header a:hover{
+	color: blue;
+	background-color: lightskyblue;
+	color: white;
+	padding: 3px;
+}
+.hero{
+	height:430px;
+	background-image: url(img/avenger.jpg);
+	background-size: cover;
+	background-position: 0 -main30px;
+	border-top: 4px solid salmon;
+	border-bottom: 4px solid skyblue;
+}
+.main {
+	width: 600px;
+	padding: 32px;
+	background-color: yellow;
+	box-sizing: border-box;
+	float: left;
+	border-right: 3px solid black;
+}
+.main .penulis{
+	font-size: 11px;
+	margin-top: -30px;
+}
+.main p{
+	margin bottom: 20px;
+	font-size: 12px;
+	color: navy;
+}
+
+.main .penulis a{
+	color:salmon;
+	text-decoration: none;
+}
+ .sidebar{
+	width: 300px;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+ .sidebar img{
+	width: 70px;
+	height: 100px;
+	float: left;
+	padding: 20px;
+}
+ .sidebar p{
+   font-weight: bold;
+}
+
+.footer {
+	background-color:black;
+	padding: 10px;
+}
+
+.footer .copy{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
